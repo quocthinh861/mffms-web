@@ -1061,7 +1061,7 @@ class ForListPage extends Component {
             wrapperTag="tbody"
             colSpan={columns.length}
          >
-            {data.length > 0 ? renderTableData() : renderEmptyTable()}
+            {true? renderTableData() : renderEmptyTable()}
          </LoadingIndicator>
       )
    }
@@ -1073,8 +1073,33 @@ class ForListPage extends Component {
          deleteById,
          getCellValue
       } = this
-      const { data } = this.state
-      const { settings } = this.props
+      const  data  = [
+         {
+            id: 1,  
+         },
+         {
+            id: 2,  
+         },
+         {
+            id: 2,  
+         },
+         {
+            id: 2,  
+         },
+      ]
+      const  settings  = {
+         entity: {
+           slug: 'example-slug'
+         },
+         columns: [
+           { propForValue: 'id', isBold: true },
+           { propForValue: 'name', isBold: false },
+           { propForValue: 'description', isBold: false },
+           { propForValue: 'description', isBold: false },
+           { propForValue: 'description', isBold: false }
+           // Add more column objects as needed
+         ]
+       };
       const { entity, columns } = settings
       const { slug } = entity
       const idColumn = columns[0].propForValue

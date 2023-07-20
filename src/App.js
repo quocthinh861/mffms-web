@@ -249,10 +249,10 @@ class App extends Component {
    }
 
    renderMenu = () => {
-      const { user } = this.props
-      const { phanQuyen } = user
+      // const { user } = this.props
+      // const { phanQuyen } = user
       const sectionsForUser = SECTIONS_FOR_ROLES.find(
-         item => item.role === phanQuyen
+         item => item.role === "Chủ sân"
       )
       const filteredMenu =
          sectionsForUser &&
@@ -323,17 +323,13 @@ class App extends Component {
       const { renderHeader, renderMain } = this
       const { showLoginPage } = this.state
 
-      if (showLoginPage) {
-         return <Login />
-      } else {
-         return (
-            <Fragment>
-               {renderHeader()}
-               {renderMain()}
-               {/* {renderNotification()} */}
-            </Fragment>
-         )
-      }
+      return (
+         <Fragment>
+            {renderHeader()}
+            {renderMain()}
+            {/* {renderNotification()} */}
+         </Fragment>
+      )
    }
 
    render() {
