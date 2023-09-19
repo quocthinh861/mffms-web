@@ -453,7 +453,12 @@ class ForStatsPage extends Component {
 
    renderChart = propName => {
       const { getLabelForPropName } = this
-      const rawData = this.state[propName]
+      const rawData = [
+         { thoiGian: '2023-07-01', giaTri: 1000000 },
+         { thoiGian: '2023-07-02', giaTri: 600000 },
+         { thoiGian: '2023-07-03', giaTri: 1100000 },
+         // Add more records as needed
+       ];
       const data = {}
       data['labels'] =
          Array.isArray(rawData) &&
