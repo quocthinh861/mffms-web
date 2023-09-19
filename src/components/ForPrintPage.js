@@ -109,7 +109,7 @@ class ForPrintPage extends Component {
                DANH SÁCH {entityName} HIỆN CÓ TRONG HỆ THỐNG
             </h1>
             <h2 className="printing-page-subtitle">
-               Mini Football Field Management System (MFFMS)
+               Sportyfind Management System
             </h2>
          </div>
       )

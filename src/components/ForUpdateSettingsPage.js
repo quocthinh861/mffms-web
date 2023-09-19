@@ -277,7 +277,7 @@ class ForUpdateSettingsPage extends Component {
       return (
          <section className="breadcrumbs">
             <span className="breadcrumb-home">
-               <Link to="/">Mini Football Field Management System (GTMS)</Link>
+               <Link to="/">Sportyfind Management System</Link>
             </span>
 
             <span className="breadcrumb-separator">

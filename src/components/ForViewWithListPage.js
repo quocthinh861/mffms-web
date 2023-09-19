@@ -788,7 +788,7 @@ class ForViewWithListPage extends Component {
       return (
          <span className="breadcrumbs">
             <span className="breadcrumb-home">
-               <Link to="/">Mini Football Field Management System (MFFMS)</Link>
+               <Link to="/">Sportyfind Management System</Link>
             </span>
             <span className="breadcrumb-separator">
                <i className="fas fa-chevron-right"></i>

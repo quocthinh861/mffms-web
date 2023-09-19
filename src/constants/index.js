@@ -1,12 +1,12 @@
 const APP_SHORT_NAME = 'MFFMS'
 
-const APP_NAME = 'Mini Football Field Management System'
+const APP_NAME = 'Sportyfind Management System'
 
 const APP_DESCRIPTION =
-   'Mini Football Field Management System - Hệ thống quản lý sân bóng đá mini'
+   'Sportyfind Management System - Hệ thống quản lý sân bóng đá mini'
 
 const APP_ABOUT =
-   'Đồ án môn học Phương pháp phát triển phần mềm hướng đối tượng (SE100.K16.PMCL)'
+   'Đồ án tốt nghiệp - Hướng công nghệ phần mềm - Đại học Bách Khoa - Đại học Quốc gia Thành phố Hồ Chí Minh - 2023'
 
 const PAGE_SIZES = [10, 25, 50, 100, 250, 500, 1000, 2500, 5000]
 
