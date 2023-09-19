@@ -1,4 +1,4 @@
-const APP_SHORT_NAME = 'MFFMS'
+const APP_SHORT_NAME = 'Sportyfind'
 
 const APP_NAME = 'Sportyfind Management System'
 
